@@ -1,0 +1,14 @@
+
+.modal-footer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.modal-footer button{
+    margin-right: 10px;
+}
+.xSvg{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    cursor: pointer;
+}

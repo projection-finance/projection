@@ -1,0 +1,221 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  height: 100vh;
+  padding: 30px 50px;
+}
+
+.chartContainer {
+  position: relative;
+  width: 50vw;
+  height: auto;
+}
+
+.flexChart table {
+  margin-top: 20px;
+}
+
+.flexChart table,
+.flexChart td,
+.flexChart th {
+  border: 1px solid #c4c4c4;
+  color: #000;
+  font-size: 16px;
+  background-color: white;
+}
+
+.flexChart td,
+.flexChart th {
+  padding: 3px 5px !important;
+  text-align: left;
+  width: 100px;
+}
+
+.flexChart td{
+  
+  text-align: center;
+}
+.flexChart th {
+  font-weight: 700;
+}
+
+.flexChart table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.date-input {
+  padding: 0 !important;
+  text-align: start;
+  div div:nth-child(1) {
+    font-size: 16px !important;
+    input {
+      padding: 5px 20px;
+      width: 135px;
+    }
+    fieldset {
+      border: none;
+      legend {
+        display: none;
+      }
+    }
+  }
+  div div:nth-child(2) {
+    display: none;
+  }
+}
+
+.price-input {
+  text-align: start;
+  width: 100px;
+  padding: 0 !important;
+}
+
+.price-input input {
+  border: none !important;
+  height: 45px;
+  text-align: end;
+  width: 100px;
+  padding: 10px 20px;
+  &:focus {
+    border: none !important;
+  }
+
+  &:focus-visible {
+    border: none !important;
+    outline: none;
+  }
+
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.action-td {
+  padding: 0 !important;
+  text-align: center;
+  button {
+    width: 100%;
+    height: 100%;
+  }
+  &:hover {
+    cursor: pointer;
+    background-color: #ededed;
+    transition: 0.5s;
+  }
+}
+
+.pagination-container {
+  display: flex;
+  margin-top: 20px;
+  width: 500px;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  button {
+    padding: 5px 10px;
+    svg {
+      width: 10px;
+    }
+  }
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+}
+
+.select-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  p {
+    color: #000;
+    margin-bottom: 0;
+  }
+}
+
+.show-error {
+  color: rgb(202, 0, 0);
+  text-align: end;
+  margin-bottom: 0;
+}
+
+.hide-error {
+  visibility: hidden;
+  width: 500px;
+  margin-bottom: 0;
+}
+
+.badge-container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-data-number {
+  color: rgb(65, 52, 52);
+  text-align: start;
+  margin-bottom: 0;
+  width: 200px;
+}
+
+.legends {
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  .legend-box {
+    width: 16px;
+    height: 16px;
+    border: none;
+  }
+  p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+}
+
+.legends-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 100px;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.blur {
+  opacity: 0.3;
+  transition: 0.3s ease-in-out;
+}
+.flexChart {
+  display: flex;
+  justify-content: space-around;
+}
+.flexChart p {
+  margin-left: 50px;
+  text-align: justify;
+}
+@media (max-width: 768px) {
+  .flexChart {
+    flex-direction: column;
+  }
+  .flexChart p {
+    width: 100%;
+    margin-left: 0px;
+  }
+}

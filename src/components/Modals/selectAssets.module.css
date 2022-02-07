@@ -1,0 +1,10 @@
+
+.div-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: unset;
+    flex-direction: column;
+}
+.div-flex > * {
+    margin-bottom: 10px;
+}

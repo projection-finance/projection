@@ -1,0 +1,67 @@
+.btnCenter{
+    display: block !important;;
+    margin: 0 auto !important;;
+}
+
+.modal > *:not(.modal-footer,.div-flex){
+    margin-bottom: 10px;
+}
+.modal-footer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.stickEnd{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.modal-footer button{
+    margin-right: 10px;
+}
+.div-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: unset;
+    flex-direction: column;
+}
+.error{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.flex-row-textfield{
+    width: 25%;
+}
+.xSvg{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    cursor: pointer;
+}
+.modal-modal-description{
+    width: fit-content;
+    margin:20px auto !important;
+}
+@media(max-width: 1283px) {
+    
+    .flex-row{
+        flex-direction: column ;
+    }
+    .flex-row > *{
+        margin-bottom: 20px !important;
+    }
+    .flex-row-textfield{
+        width: 100%;
+    }
+}

@@ -1,0 +1,9 @@
+.deleteSvg{
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+.css-1nslmh4-MuiTableCell-root.MuiTableCell-head{
+    background-color: #fff;
+    color: #000;
+}
